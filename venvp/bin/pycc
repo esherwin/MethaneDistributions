@@ -1,0 +1,3 @@
+#!/Users/evansherwin/PycharmProjects/MethaneDistributionsPython37/venvp/bin/python
+from numba.pycc import main
+main()

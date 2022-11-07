@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: scikit-datasets
+Version: 0.2.0
+Summary: Scikit-learn-compatible datasets
+Home-page: https://github.com/daviddiazvico/scikit-datasets
+Author: David Diaz Vico
+Author-email: david.diaz.vico@outlook.com
+License: UNKNOWN
+Download-URL: https://github.com/daviddiazvico/scikit-datasets/archive/v0.2.0.tar.gz
+Keywords: scikit-learn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Provides-Extra: cran
+Requires-Dist: rdata ; extra == 'cran'
+Provides-Extra: forex
+Requires-Dist: forex-python (>=1.6) ; extra == 'forex'
+Provides-Extra: keel
+Requires-Dist: pandas ; extra == 'keel'
+Provides-Extra: keras
+Requires-Dist: keras ; extra == 'keras'
+Provides-Extra: utils.estimator
+Requires-Dist: jsonpickle ; extra == 'utils.estimator'
+Provides-Extra: utils.experiments
+Requires-Dist: sacred ; extra == 'utils.experiments'
+Provides-Extra: utils.scores
+Requires-Dist: statsmodels ; extra == 'utils.scores'
+
+UNKNOWN
+
